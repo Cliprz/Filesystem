@@ -96,7 +96,7 @@ class Filesystem {
 			$data['basename'] = pathinfo($file,PATHINFO_BASENAME);
 			if (is_file($file)) {
 				$data['extension'] = pathinfo($file,PATHINFO_EXTENSION);
-				if (false !== ($mimetype = $this->guess($data['extension']))) {
+				if (false !== ($mimetype = $this->guessMimeType($data['extension']))) {
 					$data['mimetype'] = $mimetype;
 				}
 			}
