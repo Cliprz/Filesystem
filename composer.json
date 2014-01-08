@@ -1,0 +1,28 @@
+{
+    "name": "cliprz/filesystem",
+    "description": "A more options to handle your files and directories with PHP.",
+    "license": "MIT",
+    "version": "1.0.0",
+    "keywords": [
+        "cliprz",
+        "file",
+        "files",
+        "filesystem",
+        "directories",
+        "directory"
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+	"autoload": {
+		"classmap": [
+			"MimeTypes"
+		]
+	},
+    "authors": [
+        {
+            "name": "Yousef Ismaeil",
+            "email": "cliprz@gmail.com"
+        }
+    ]
+}
