@@ -4,7 +4,7 @@ A more options to handle your files and directories with PHP.
 
 Note
 ----
-Read our [Tests](https://github.com/Cliprz/Filesystem/tree/master/Tests) to understand or loader require PHPUnit.
+Read our [Tests](https://github.com/Cliprz/Filesystem/tree/master/Tests) to understand or Cliprz\Filesystem require PHPUnit.
 
 Constants
 ---------
@@ -88,7 +88,7 @@ To copy a full directory path to another destination
 ``` php
 $Filesystem->copyDirectory('My/Classes/Direcotry','To/Includes/Classes');
 ```
-in examole above you will copy ``` My/Classes/Direcotry ``` files and directories to ``` To/Includes/Classes ```
+in example above you will copy ``` My/Classes/Direcotry ``` files and directories to ``` To/Includes/Classes ```
 
 Note : If ``` To/Includes/Classes ``` not exists this method will created.
 
