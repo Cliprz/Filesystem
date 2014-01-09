@@ -16,7 +16,7 @@
     },
 	"autoload": {
 		"classmap": [
-			"MimeTypes",
+            "MimeTypes",
 			"Filesystem.php"
 		]
 	},
