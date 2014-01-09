@@ -2,7 +2,7 @@
     "name": "cliprz/filesystem",
     "description": "A more options to handle your files and directories with PHP.",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "cliprz",
         "file",
