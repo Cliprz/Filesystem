@@ -5,14 +5,24 @@ A more options to handle your files and directories with PHP.
 Download and install
 --------------------
 This package written under PHP 5.4 or newer. its simple to install only [Download](https://github.com/Cliprz/Filesystem/archive/master.zip) it and use it.
+Don't forget to include ``` Cliprz\Filesystem\MimeTypes\MimeTypesGuesser ``` class before use ``` Cliprz\Filesystem\Filesystem ``` class see :
 
-You can also Download Cliprz\Filesystem from Composer
+``` php
+include ('Path/To/Cliprz/Filesystem/MimeTypes/MimeTypesGuesser.php');
+include ('Path/To/Cliprz/Filesystem/Filesystem.php');
+use Cliprz\Filesystem\Filesystem as Filesystem;
+
+// Create instance
+$Filesystem = new Filesystem();
+```
+
+Or just let Composer do that for you, Call Cliprz\Filesystem from Composer
 
 ```json
 {
     "require": {
         "php": ">=5.4",
-		"cliprz/Filesystem": "1.0.*"
+		"cliprz/filesystem": "1.0.*"
     }
 }
 ```
