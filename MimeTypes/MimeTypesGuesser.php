@@ -19,11 +19,11 @@ class MimeTypesGuesser {
 	 */
 	private $map;
 
-    /**
-     * __CLASS__ Constructor
-     *
-     * @access public
-     */
+	/**
+	 * __CLASS__ Constructor
+	 *
+	 * @access public
+	 */
 	public function __construct () {
 		$this->map = include(__DIR__.DIRECTORY_SEPARATOR.'MimeTypesMap.php');
 	}
