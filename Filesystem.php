@@ -61,11 +61,11 @@ class Filesystem {
 	 */
 	private static $MimeTypesGuesser;
 
-    /**
-     * __CLASS__ Constructor
-     *
-     * @access public
-     */
+	/**
+	 * __CLASS__ Constructor
+	 *
+	 * @access public
+	 */
 	public function __construct () {
 		if (!static::$MimeTypesGuesser instanceof MimeTypesGuesser) {
 			static::$MimeTypesGuesser = new MimeTypesGuesser();
@@ -106,7 +106,7 @@ class Filesystem {
 			if (is_file($file)) {
 				$data['bytesize'] = filesize($file);
 				$data['readablesize'] = $this->bytesToSize($data['bytesize']);
-			} else {
+			} else if (is_dir($file)) {
 				$data['bytesize'] = $this->directorySize($file);
 				$data['readablesize'] = $this->bytesToSize($data['bytesize']);
 			}
