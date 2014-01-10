@@ -99,7 +99,7 @@ this method return boolean true on success or false on failure
 Read all path files and directories
 
 ``` php
-$Filesystem->copyDirectory('My/Classes/Direcotry');
+$Filesystem->readDirectory('My/Classes/Direcotry');
 ```
 return to files and directories array
 
