@@ -29,7 +29,7 @@ Or just let Composer do that for you, Call Cliprz\Filesystem from Composer
 
 How to use it
 -------------
-You can read [Manual](https://github.com/Cliprz/Filesystem/tree/master/MANUAL.md) , And you can test Cliprz\Filesystem from [Tests](https://github.com/Cliprz/Loader/tree/master/Tests) directory require PHPUnit.
+You can read [Manual](https://github.com/Cliprz/Filesystem/tree/master/MANUAL.md) , And you can test Cliprz\Filesystem from [Tests](https://github.com/Cliprz/Filesystem/tree/master/Tests) directory require PHPUnit.
 
 ## Author
 * [Yousef Ismaeil](https://github.com/Cliprz/)
